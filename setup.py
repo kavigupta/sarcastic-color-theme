@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sarcastic-color-scheme",
-    version="0.3.1",
+    version="0.1.0",
     author="Kavi Gupta",
     author_email="sarcastic@kavigupta.org",
     description="A sarcastic color scheme for matplotlib.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kavigupta/sarcastic-color-scheme",
-    download_url="https://github.com/kavigupta/sarcastic-color-scheme/archive/0.1.zip",
+    download_url="https://github.com/kavigupta/sarcastic-color-scheme/archive/0.1.0.zip",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.5",
