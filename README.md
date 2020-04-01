@@ -46,6 +46,33 @@ This wouldn't be maximally awful if it was consistent, which is why running exac
 
 This way, not only is every graph terrible looking, but you can't get used to the style!
 
+# How to install and use
+
+You can install this package using the following command
+
+```sh
+pip install sarcastic-color-scheme
+```
+
+To use it you can run
+
+```python
+from sarcastic_color_scheme import sarcastic
+```
+
+and then either run
+
+```python
+sarcastic.sarcastic()
+```
+
+to make all subsequent graphs sarcastic (`sarcastic.normal()` undoes the change), or to make a single graph sarcastic run
+
+```python
+with sarcastic:
+    # your graph code here
+```
+
 # Configurable
 
 If you look at [the code](https://github.com/kavigupta/sarcastic-color-theme/blob/master/demo/demo.py) you'll notice that you use a context manager to make sure that the sarcasm mode is enabled:
