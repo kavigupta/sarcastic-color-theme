@@ -1,7 +1,6 @@
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import warnings
 
 from .get_random_style import StyleRandomizer
 
