@@ -12,7 +12,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kavigupta/sarcastic-color-scheme",
-    download_url="https://github.com/kavigupta/sarcastic-color-scheme/archive/0.1.0.zip",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.5",
