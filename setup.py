@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sarcastic-color-scheme",
-    version="0.1.1",
+    version="0.2.0",
     author="Kavi Gupta",
     author_email="sarcastic@kavigupta.org",
     description="A sarcastic color scheme for matplotlib.",
