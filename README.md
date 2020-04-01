@@ -12,7 +12,7 @@ This is useful for
 
 # Features
 
-The code for all the demos can be found (here)[https://github.com/kavigupta/sarcastic-color-theme/blob/master/demo/demo.py].
+The code for all the demos can be found [here](https://github.com/kavigupta/sarcastic-color-theme/blob/master/demo/demo.py).
 
 
 ## Afwul background
@@ -48,7 +48,7 @@ This way, not only is every graph terrible looking, but you can't get used to th
 
 # Configurable
 
-If you look at (the code)[https://github.com/kavigupta/sarcastic-color-theme/blob/master/demo/demo.py] you'll notice that you use a context manager to make sure that the sarcasm mode is enabled:
+If you look at [the code](https://github.com/kavigupta/sarcastic-color-theme/blob/master/demo/demo.py) you'll notice that you use a context manager to make sure that the sarcasm mode is enabled:
 
 ```python
 with sarcastic:
